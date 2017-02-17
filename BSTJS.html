@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Binary Search Trees</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="BSTJS.js"></script>
+<link rel="stylesheet" href="BSTDemo.css">
+</head>
+
+<body>
+
+  <nav>
+  <br>
+  </nav>
+  <br>
+  <section id="intro">
+  <h1>Binary Search Tree demonstration</h1>
+  <p>I present here a Javascript only demonstration of a Binary Search Tree. You can call interactively the methods search(), insert(), remove() on the tree. The tree is initialized with 5 random values. To keep the display simple, the tree depth should not exceed 4. Therefore any insert that would result in a depth > 4 is not executed and an alert is displayed instead. 
+  </p>
+  </section>
+
+
+  <section id="display">
+    <canvas id="canvas" width="800" height="600">
+    Your browser does not support HTML 5 Canvas
+    </canvas>
+    <a id=animanc></a>
+   
+  </section>
+
+  <section id="controls">
+    <div id="randomize">
+      <p>Click here to initialize the tree with random values:</p>
+      <form name="initialize" id="initelem">
+        <input type="submit" name="randomize-btn" value="Initialize">
+      </form>
+    </div>
+
+    <div id="search">
+      <p>Click here to search for a key</p>
+      <form name="search" id="searchelem">
+        Key to search: <input type="text" id="searchkey" size="2">
+        <input type="submit" name="search-btn" value="Search">
+      </form>
+      <p id="found"></p>
+    </div>
+
+    <div id="insertion">
+      <p>Click here to insert a new key</p>
+      <form name="insert" id="insertelem">
+        New key to insert: <input type="text" id="newkey" size="2">
+        <input type="submit" name="insert-btn" value="Insert">
+      </form>
+    </div>
+
+    <div id="deletion">
+      <p>Click here to delete a key</p>
+      <form name="delete" id="deleteelem">
+        Key to delete: <input type="text" id="delkey" size="2">
+        <input type="submit" name="delete-btn" value="Delete">
+      </form>
+      <p id="empty"></p>
+    </div>
+
+    <footer>
+      <p>Dominique Ubersfeld, Cachan, France</p>
+    </footer>
+  </section>
+
+
+</body>
+</html>
+

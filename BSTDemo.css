@@ -1,0 +1,71 @@
+#intro {
+  width: 600px;
+  height: auto;
+  font: 15px verdana, sans-serif;
+  border: 1px solid #999999;
+}
+
+#display {
+  float: left;
+  width: 800px;
+  height: 600px;
+  border: 1px solid #999999;
+}
+
+#controls {
+  float: left;
+  width: 810px;
+  height: 120px;
+  font: 12px verdana, sans-serif;
+  /*border: 1px solid #990000;*/
+}
+
+#randomize {
+  float: left;
+  width: 200px;
+  height: 120px;
+  font: 12px verdana, sans-serif;
+  border: 1px solid #999999;
+}
+
+#search {
+  float: left;
+  width: 200px;
+  height: 120px;
+  font: 12px verdana, sans-serif;
+  border: 1px solid #999999;
+}
+
+#insertion {
+  float: left;
+  width: 200px;
+  height: 120px;
+  font: 12px verdana, sans-serif;
+  border: 1px solid #999999;
+}
+
+#deletion {
+  float: left;
+  width: 200px;
+  height: 120px;
+  font: 12px verdana, sans-serif;
+  border: 1px solid #999999;
+}
+
+#searchkey, #insertkey, #delkey {
+  width: 28px;
+  font: 12px verdana, sans-serif;
+}
+
+footer {
+  display: block;
+  height: auto;
+  text-align: center;
+  font: 20px helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+
+
+
